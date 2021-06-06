@@ -17,7 +17,7 @@ In this paper, we propose the model **KG2Vec** (Konlwledge Graph To Vector) to s
 
 ## Instructions for Run KG2Vec on the Stanford Rare Word dataset and the Cambridge Card-660 dataset
 
-1. First download training data, including pretrained word vectors and preprocessed word definitions (features), from [here](). Put all the files to the folder ```train_data```.
+1. First download training data, including pretrained word vectors and preprocessed word definitions (features), from [here](https://drive.google.com/file/d/1a_Chiuvt4phYuyD7hSU3cD-C4N-3saDo/view?usp=sharing). Put all the files to the folder ```train_data```.
 
 2. Results reproduction.
 For example, to reproduce KG2Vec's performance on the Cambridge Card-660 dataset using ConceptNet embeddings, run:
