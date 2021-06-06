@@ -1,0 +1,34 @@
+Card-660 Similarity Scale
+============================
+
+Given a pair of words, the task is to score their semantic similarity according to the following [0-4] rating scale:
+
+   (4)  synonyms
+        The two words are different ways of referring to the same concept.
+            automobile	car
+            cellphone	mobile
+            monitor	screen
+
+   (3)  similar
+        The two words are of the same nature, but slightly different in details.
+            car		truck
+            table	desk
+            tiger	lion
+
+   (2)  related
+        The two words are closely related but they are not similar in their nature.
+            car		driver
+            desk	office
+            writer	pen
+
+   (1)  same domain or slight relation
+        The two words have distant relationship.
+            car		tarmac
+            driver	traffic
+            desk	employee
+
+   (0)  completely unrelated
+            car		sky
+            tea		weather
+            supervision	milk
+
