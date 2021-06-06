@@ -24,7 +24,12 @@ For example, to reproduce KG2Vec's performance on the Cambridge Card-660 dataset
 ```zsh
 python3 train_wiki.py --epochs 250 --lr 0.00075 --hidden 400 --dataset card --batch_size 400 --wv con
 ```
-To test on Stanford Rare Word dataset, change the argument ```dataset``` to ```rw```. To model with GloVe embeddings, change the argument ```wv``` to ```glove```.
+To reproduce KG2Vec's performance on the Cambridge Card-660 dataset using GloVe embeddings, run:
+```zsh
+python3 train_wiki.py --epochs 300 --lr 0.001 --hidden 400 --dataset card --batch_size 256 --wv con
+```
+
+To test on Stanford Rare Word dataset, change the argument ```dataset``` to ```rw``` (tuning with hyperparameters e.g., hidden size, learning rate and number of epochs, may be needed).
 
 ## Cite KG2Vec
 If you find KG2Vec useful for you research, please cite our paper:
